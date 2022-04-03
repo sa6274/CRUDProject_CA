@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+:root{
+    --dark:#13141a;
+    --light:#d2d6eb;
+    --border:#dadada;
+    --border-button:#d1d2d4;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    max-width: 1024 px;
+    margin: auto;
+}
+
+.nav-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border-shadow{
+    border: 1px;
+}
+
+.text-dark{
+    color:var(--dark)
+}
+
+.text-light{
+    color:var(--light)
+}
+
+.inline{
+    display: inline-block;
+}
+
+.text-color{
+    background: red;
+}
+
+#header nav{
+    background-color: rgb(75, 75, 197);
+}
+
+.text-title{
+    color: white;
+}
+
+#site-main{
+    margin-top: 6em;
+    font-family: 'Raleway', sans-serif;
+}
+#site-main .container .box-nav> a {
+    font-size: 1em;
+    padding: .5em;
+}
+
+#site-main .container form{
+    margin: 2em 0;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+.table td, .tableth{
+    padding: .75em;
+    vertical-align: top;
+    text-align:  center;
+    border-top: 1px solid var(--border);
+}
+
+.table td > a.button{
+    padding: .3em 1em;
+    font-size: 1.1em;
+    margin: 0 .2em;
+}
